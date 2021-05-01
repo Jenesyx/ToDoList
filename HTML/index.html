@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"
+        integrity="sha384-3LK/3kTpDE/Pkp8gTNp2gR/2gOiwQ6QaO7Td0zV76UFJVhqLl4Vl3KL1We6q6wR9" crossorigin="anonymous">
+        </script>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="icon" href="../Images/face png .png">
+    <script src="../JS/main.js"></script>
+    <script src="../JS/typed.js"></script>
+    <title>Jenesyx - ToDoList</title>
+</head>
+
+<body onload="onload()">
+
+    <!-- Start Header -->
+    <header id="header">
+        <div class="container">
+            <nav id="nav">
+                <div class="icon">
+                    <a href="">
+                        <i class="fas fa-info-circle"></i>
+                    </a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- Start Writer -->
+    <div class="container">
+        <div class="title">Enjoy <span id="typing"></span></div>
+    </div>
+    <!-- End Writer -->
+
+    <!-- Start List -->
+    <div class="container">
+        <form>
+            <input type="text" class="todo-input" />
+            <button class="todo-button" type="submit">
+                <i class="fas fa-plus-square"></i>
+            </button>
+            <div class="select">
+                <select name="todos" class="filter-todo">
+                    <option value="all">All</option>
+                    <option value="completed">Completed</option>
+                    <option value="uncompleted">Uncompleted</option>
+                </select>
+            </div>
+        </form>
+        <div class="todo-container">
+            <ul class="todo-list"></ul>
+        </div>
+    </div>
+    <!-- End List -->
+
+        <!-- Start Footer -->
+        <footer id="footer">
+            <div class="container">
+                <div class="footer-info">
+                    <P> Designed with <i class="fas fa-heart"></i> & <i class="fas fa-coffee"></i> by AliJenesyx</P>
+                </div>
+            </div>
+        </footer>
+        <!-- End Footer -->
+</body>
+
+</html>
